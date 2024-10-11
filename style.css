@@ -1,0 +1,137 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.navegacion{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    position: fixed;
+    z-index: 1000;
+    background-color: aliceblue;
+    align-items: center;
+}
+
+.navegacion-botones-container{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.navegacion-botones-container a {
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color:dodgerblue;
+}
+
+.slider-principal{
+    width: 100%;
+    height: 550px;
+}
+
+.slider-principal-imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.publicidad-container{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    margin: 20px;
+}
+
+.descripcion-container{
+    flex-basis: 40%;
+    
+}
+
+.button-shop a{
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+
+}
+
+
+.imagenes-publicidad-container{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.descripcion-container div {
+    flex-basis: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen-publicidad{
+    width: 300px;
+    height: 300px;
+}
+
+.imagen-logo-container{
+    width: 70px;
+    height: auto;
+}
+
+.logo{
+    margin-top: 7px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.container-logo{
+    display: flex;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+
+.productos-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.productos-imagenes-container{
+    display: flex;
+    flex-direction: column;
+    background-color:darkgray;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.imagen-producto{
+    width: 350px;
+    height: 350px;
+}
+
+.agregar{
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
